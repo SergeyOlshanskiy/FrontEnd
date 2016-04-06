@@ -1,0 +1,73 @@
+body {
+    font-size: 12pt;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+button {
+    color: #ffffff;
+    background-color: transparent;
+    height: 70px;
+    width: 280px;
+    font-size: 16px;
+    letter-spacing: 5px;
+    font-weight: bold;
+    letter-spacing: 2px;
+    border-radius: 3px;
+    border: none;
+}
+
+button.btn-getstarted {
+    background-color: #7accc8;
+}
+
+button.btn-trydemo {
+    background-color: #f69679;
+}
+
+button.bordered {
+    border: 3px solid #ffffff;
+}
+
+button.short {
+    width: 180px;
+}
+
+nav ul {
+    list-style: none;
+}
+
+nav li + li {
+    margin-top: 20px;
+}
+
+nav a {
+    font-weight: bold;
+}
+
+.square {
+    width: 337px;
+    height: 346px;
+}
+
+.square.red {
+    background-color: #f69679;
+}
+
+.square.orange {
+    background-color: #e8b968;
+}
+
+.designby {
+    text-align: center;
+}
+
+.designby a {
+    font-size: 12pt;
+    text-transform: uppercase;
+    letter-spacing: 6px;
+}
