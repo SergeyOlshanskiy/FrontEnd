@@ -49,6 +49,25 @@ nav a {
     font-weight: bold;
 }
 
+div.button-play {
+    width: 79px;
+    height: 79px;
+    background: transparent;
+    border-radius: 100px;
+    border: 10px solid #ffffff;
+    position: relative;
+}
+
+div.button-play::after {
+    border-top: 15px solid transparent;
+    border-left: 19px solid #ffffff;
+    border-bottom: 14px solid transparent;
+    position: absolute;
+    top: 25px;
+    left: 34px;
+    content: '';
+}
+
 .square {
     width: 337px;
     height: 346px;
