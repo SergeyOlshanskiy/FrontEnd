@@ -1,4 +1,9 @@
-body {
+.page-contactme {
     background-color: #7accc8;
     color: #ffffff;
+}
+
+/* fix */
+.page-contactme ul {
+    margin-top: 0;
 }

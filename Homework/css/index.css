@@ -1,13 +1,9 @@
-html, 
-body {
-    height: 100%;
-}
-
-body {
+.page-listone {
     background-image: url('images/background.png');
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
     overflow: hidden;
     color: #ffffff;
+    height: 100%;
 }

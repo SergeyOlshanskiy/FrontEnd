@@ -1,6 +1,12 @@
+html,
 body {
-    font-size: 12pt;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    height: 100%;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
 }
 
 a {
@@ -13,7 +19,7 @@ button {
     background-color: transparent;
     height: 70px;
     width: 280px;
-    font-size: 16px;
+    font-size: 1em;
     letter-spacing: 5px;
     font-weight: bold;
     letter-spacing: 2px;
@@ -69,6 +75,14 @@ button.button-play::after {
     content: '';
 }
 
+div[class^='page-'] {
+    height: 100%;
+}
+
+.temp-link {
+    text-decoration: underline;
+}
+
 .square {
     width: 337px;
     height: 346px;
@@ -84,10 +98,6 @@ button.button-play::after {
 
 .designby {
     text-align: center;
-}
-
-.designby a {
-    font-size: 12pt;
     text-transform: uppercase;
     letter-spacing: 6px;
 }

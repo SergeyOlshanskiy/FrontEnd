@@ -1,4 +1,9 @@
-body {
+.page-pagetwo {
     background-color: #e8b968;
     color: #ffffff;
+}
+
+/* fix */
+.page-pagetwo h2 {
+   margin-top: 0;
 }
