@@ -3,7 +3,12 @@
     background-repeat: no-repeat;
     background-size: cover;
     background-position-y: center;
-    overflow: hidden;
     color: #ffffff;
     height: 100%;
+}
+
+#epam-video {
+    position: fixed;
+    top: 0px;
+    right: 0px;
 }

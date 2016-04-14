@@ -1,0 +1,12 @@
+.page-work-square {
+    width: 337px;
+    height: 346px;
+}
+
+.page-work-square.red {
+    background-color: #f69679;
+}
+
+.page-work-square.orange {
+    background-color: #e8b968;
+}

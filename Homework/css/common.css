@@ -4,9 +4,10 @@ body {
 }
 
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    margin: 0;
+    font-family: 'LatoWeb';
+    margin: auto;
     padding: 0;
+    width: 1600px
 }
 
 a {
@@ -15,6 +16,7 @@ a {
 }
 
 button {
+    font-family: 'LatoWebBold';
     color: #ffffff;
     background-color: transparent;
     height: 70px;
@@ -44,18 +46,6 @@ button.short {
     width: 180px;
 }
 
-nav ul {
-    list-style: none;
-}
-
-nav li + li {
-    margin-top: 20px;
-}
-
-nav a {
-    font-weight: bold;
-}
-
 button.button-play {
     width: 99px;
     height: 99px;
@@ -75,7 +65,19 @@ button.button-play::after {
     content: '';
 }
 
-div[class^='page-'] {
+nav ul {
+    list-style: none;
+}
+
+nav li + li {
+    margin-top: 20px;
+}
+
+nav a {
+    font-weight: bold;
+}
+
+body > :nth-child(1) {
     height: 100%;
 }
 
@@ -83,21 +85,33 @@ div[class^='page-'] {
     text-decoration: underline;
 }
 
-.square {
-    width: 337px;
-    height: 346px;
+/* typography */
+h1, h2, h3, h4 {
+    font-family: 'LatoWebLight';
 }
 
-.square.red {
-    background-color: #f69679;
+h1 {
+    font-size: 60px;
 }
 
-.square.orange {
-    background-color: #e8b968;
+h2 {
+    font-size: 55px;
 }
 
-.designby {
-    text-align: center;
+h3 {
+    font-size: 45px;
+}
+
+h4 {
+    font-size: 43px;
+    font-style: italic;
+}
+
+h5 {
+    font-family: 'LatoWebBlack';
     text-transform: uppercase;
-    letter-spacing: 6px;
+}
+
+i {
+    font-style: italic;
 }
