@@ -7,8 +7,27 @@
     height: 100%;
 }
 
-#epam-video {
-    position: fixed;
-    top: 0px;
-    right: 0px;
+.page-listone-introduction {
+    text-align: center;
+    margin-top: 160px;
+}
+
+.page-listone-introduction h1 {
+    letter-spacing: -1px;
+    margin-bottom: 17px;
+}
+
+.page-listone-introduction .slogan {
+    width: 700px;
+    margin: auto;
+    line-height: 30px;
+    font-size: 17px;
+}
+
+.button-play {
+    margin: 70px 0;
+}
+
+.btn-getstarted {
+    margin-top: 195px;
 }
