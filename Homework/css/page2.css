@@ -1,4 +1,42 @@
 .page-pagetwo {
     background-color: #e8b968;
     color: #ffffff;
+    overflow: hidden;
+    position: relative;
+    padding-top: 88px;
+    box-sizing: border-box;
+}
+
+.page-pagetwo_left-column {
+    width: 59%;
+    float: left;
+}
+
+.page-pagetwo_right-column {
+    float: right;
+    width: 26%;
+}
+
+#img-ipad {
+    position: absolute;
+    top: 67px;
+    right: -240px;
+}
+
+.page-pagetwo h2 {
+    letter-spacing: .7px;
+    word-spacing: -8px;
+    line-height: 54px;
+    margin-bottom: 31px;
+}
+
+.page-pagetwo p {
+    line-height: 30px;
+    letter-spacing: .1px;
+    word-spacing: -1.1px;
+    margin-bottom: 29px;
+}
+
+.page-pagetwo button {
+    margin-top: 8px;
 }

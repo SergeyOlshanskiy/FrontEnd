@@ -79,7 +79,8 @@ nav a {
 
 body > :nth-child(1) {
     height: 100%;
-    padding: 0 210px;
+    padding-left: 210px;
+    padding-right: 210px;
 }
 
 .temp-link {
