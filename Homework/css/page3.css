@@ -1,0 +1,47 @@
+.page_about_author {
+    height: 599px;
+}
+
+.page_about_author h4 {
+    text-align: center;
+    line-height: 53px;
+    letter-spacing: -0.2px;
+    word-spacing: -2.5px;
+}
+
+.page-design {
+    background-color: #abbcc3;
+    padding-top: 108px;
+}
+
+.page-design-articles_left-column,
+.page-design-articles_right-column {
+    width: 50%;
+    float: left;
+    box-sizing: border-box;
+}
+
+.page-design-articles_left-column {
+    padding-right: 70px;
+}
+
+.page-design-articles_right-column {
+    padding-left: 70px;
+}
+
+.page-design-articles_left-column {
+
+}
+
+.page-design-articles h5 {
+    letter-spacing: 2px;
+    word-spacing: 1px;
+}
+
+.page-design-articles p {
+    margin-top: 21px;
+    line-height: 30px;
+    padding-bottom: 74px;
+    letter-spacing: .1px;
+    word-spacing: -1.1px;
+}
