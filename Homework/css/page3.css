@@ -1,16 +1,82 @@
 .page_about_author {
-    height: 599px;
+    height: 464px;
+    color: #f9f9f9;
+    background-color: #5b6768;
+    padding-top: 135px;
+    text-align: center;
+    position: relative;
+}
+
+.page_about_author:after {
+    content: '';
+    display: block;
+
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-bottom-width: 32px;
+    border-left-width: 32px;
+    border-right-width: 0;
+    border-top-width: 0;
+    border-bottom-color: transparent;
+    border-left-color: transparent;
+    border-right-color: transparent;
+    border-top-color: transparent;
+
+
+    border-bottom-right-radius: 5px;
+    background-color: #5b6768;
+    transform: rotate(53deg) skewX(16deg);
+
+    position: absolute;
+    z-index: -1;
+    bottom: -16px;
+    left: 782px;
+
 }
 
 .page_about_author h4 {
-    text-align: center;
     line-height: 53px;
     letter-spacing: -0.2px;
     word-spacing: -2.5px;
 }
 
+.page_about_author .avatar {
+    margin: 0 auto;
+    height: 122px;
+    width: 122px;
+    background-color: dodgerblue;
+    border: 5px solid #fdfdfd;
+    border-radius: 50%;
+    margin-bottom: 25px;
+}
+
+.slider_switches {
+    display: inline-block;
+    margin-top: 60px;
+}
+
+.slider_switches:after {
+    content: '';
+    display: block;
+    clear: both;
+}
+
+.page_about_author .switch {
+    height: 8px;
+    width: 8px;
+    background-color: transparent;
+    border: 3px solid #fdfdfd;
+    border-radius: 50%;
+    margin: 0 13px;
+
+    float: left;
+}
+
+.page_about_author .switch.active {
+    background-color: #fdfdfd;
+}
 .page-design {
-    background-color: #abbcc3;
     padding-top: 108px;
 }
 
