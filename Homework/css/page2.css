@@ -1,10 +1,10 @@
 .page-pagetwo {
-    background-color: #e8b968;
     color: #ffffff;
     overflow: hidden;
     position: relative;
     padding-top: 88px;
     box-sizing: border-box;
+    background: url("images/radial_circles.png") no-repeat 755px 593px #e8b968;
 }
 
 .page-pagetwo_left-column {
@@ -21,6 +21,8 @@
     position: absolute;
     top: 67px;
     right: -240px;
+    box-shadow: -23px 18px 1px rgba(211, 165, 84, .4);
+    border-radius: 57px;
 }
 
 .page-pagetwo h2 {
