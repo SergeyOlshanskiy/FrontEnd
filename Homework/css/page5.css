@@ -1,6 +1,8 @@
 .page-contactme {
-    background-color: #7accc8;
+    background: url("images/blot.png") no-repeat center 48% #7accc8;
     color: #ffffff;
+    padding-top: 74px;
+    padding-bottom: 236px;
 }
 
 .page-contactme-content {
@@ -11,4 +13,21 @@
     text-align: center;
     text-transform: uppercase;
     letter-spacing: 6px;
+    margin-top: 208px;
+}
+
+.page-contactme nav {
+    float: right;
+    min-width: 108px;
+}
+
+.page-contactme .cols {
+    max-width: 650px;
+    line-height: 23px;
+    -moz-columns: 2 auto;
+    -webkit-columns: 2 auto;
+    columns: 2 auto;
+    -moz-column-gap: 45px;
+    -webkit-column-gap: 45px;
+    column-gap: 45px;
 }

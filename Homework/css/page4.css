@@ -4,9 +4,13 @@ h3 {
 
 .page-work {
     padding-top: 100px;
-    padding-bottom: 157px;
+    padding-bottom: 159px;
     color: #abbcc3;
     background-color: #f6f6f4;
+}
+
+.page-work .content {
+    position: relative;
 }
 
 .page-work article {
@@ -61,4 +65,35 @@ h3 {
 
 .page-work-square.orange {
     background-color: #e8b968;
+}
+
+.page-work .slider_arrows {
+    position: absolute;
+    bottom: -9px;
+    right: -7px;
+}
+
+.slider_arrow_left,
+.slider_arrow_right {
+    width: 24px;
+    height: 24px;
+    cursor: pointer;
+}
+
+.slider_arrow_left {
+    float: left;
+    background: url("images/slider_left.png") no-repeat transparent;
+}
+
+.slider_arrow_right {
+    float: right;
+    background: url("images/slider_right.png") no-repeat transparent;
+}
+
+.slider_arrow_left__disabled {
+    background: url("images/slider_left_disabled.png") no-repeat transparent;
+}
+
+.slider_arrow_right__disabled {
+    background: url("images/slider_right_disabled.png") no-repeat transparent;
 }

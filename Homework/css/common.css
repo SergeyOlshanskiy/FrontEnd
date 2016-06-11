@@ -1,8 +1,13 @@
+@media screen and (min-width: 1366px) {
+    body {
+        margin: auto;
+        padding: 0;
+        width: 1600px
+    }
+}
+
 body {
     font-family: 'LatoWeb';
-    margin: auto;
-    padding: 0;
-    width: 1600px
 }
 
 a {
@@ -17,7 +22,6 @@ button {
     height: 70px;
     width: 280px;
     font-size: 1em;
-    letter-spacing: 5px;
     font-weight: bold;
     letter-spacing: 2px;
     border-radius: 3px;
@@ -73,13 +77,9 @@ nav a {
 }
 
 body > div {
-    height: 100%;
-    padding-left: 210px;
-    padding-right: 210px;
-}
-
-.temp-link {
-    text-decoration: underline;
+    overflow: auto;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 /* typography */
@@ -112,6 +112,12 @@ h5 {
 
 i {
     font-style: italic;
+}
+
+.content {
+    width: 1180px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .cf:after {
