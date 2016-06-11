@@ -3,7 +3,8 @@ h3 {
 }
 
 .page-work {
-    padding-top: 100px !important;
+    padding-top: 100px;
+    padding-bottom: 157px;
     color: #abbcc3;
     background-color: #f6f6f4;
 }

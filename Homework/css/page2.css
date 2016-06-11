@@ -3,8 +3,9 @@
     overflow: hidden;
     position: relative;
     padding-top: 88px;
+    padding-bottom: 181px;
     box-sizing: border-box;
-    background: url("images/radial_circles.png") no-repeat 755px 593px #e8b968;
+    background: url("images/radial_circles.png") no-repeat 755px 336px #e8b968;
 }
 
 .page-pagetwo_left-column {
