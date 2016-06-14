@@ -1,15 +1,12 @@
 .page-listone {
-    background-image: url('images/background.png');
-    background-repeat: no-repeat;
+    background: url('images/background.png') no-repeat 0 center;
     background-size: cover;
-    background-position-y: center;
     color: #ffffff;
-    height: 100%;
 }
 
 .page-listone-introduction {
     text-align: center;
-    margin-top: 177px;
+    margin-top: 96px;
     margin-bottom: 64px;
 }
 

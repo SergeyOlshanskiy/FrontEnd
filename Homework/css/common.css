@@ -1,4 +1,10 @@
-@media screen and (min-width: 1366px) {
+@media screen and (min-width: 1180px) {
+    .content {
+        width: 1180px;
+    }
+}
+
+@media screen and (min-width: 1600px) {
     body {
         margin: auto;
         padding: 0;
@@ -7,7 +13,7 @@
 }
 
 body {
-    font-family: 'LatoWeb';
+    font-family: 'LatoWeb', sans-serif;
 }
 
 a {
@@ -16,7 +22,7 @@ a {
 }
 
 button {
-    font-family: 'LatoWebBold';
+    font-family: 'LatoWebBold', sans-serif;
     color: #ffffff;
     background-color: transparent;
     height: 70px;
@@ -77,14 +83,14 @@ nav a {
 }
 
 body > div {
-    overflow: auto;
+    overflow: hidden;
     margin-left: auto;
     margin-right: auto;
 }
 
 /* typography */
 h1, h2, h3, h4 {
-    font-family: 'LatoWebLight';
+    font-family: 'LatoWebLight', sans-serif;
 }
 
 h1 {
@@ -106,7 +112,7 @@ h4 {
 }
 
 h5 {
-    font-family: 'LatoWebBlack';
+    font-family: 'LatoWebBlack', sans-serif;
     text-transform: uppercase;
 }
 
@@ -115,7 +121,6 @@ i {
 }
 
 .content {
-    width: 1180px;
     margin-left: auto;
     margin-right: auto;
 }

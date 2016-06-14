@@ -26,7 +26,7 @@
     z-index: -1;
     bottom: -16px;
     left: 50%;
-    margin-left: -15px;
+    margin-left: -18px;
 
 }
 
@@ -37,7 +37,6 @@
 }
 
 .page_about_author .avatar {
-    margin: 0 auto;
     height: 122px;
     width: 122px;
     background-color: dodgerblue;
