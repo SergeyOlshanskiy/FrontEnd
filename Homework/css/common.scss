@@ -1,17 +1,25 @@
 @media screen and (min-width: 1180px) {
   .content {
-    width: 1180px; } }
+    width: 1180px;
+  }
+}
+
 @media screen and (min-width: 1600px) {
   body {
     margin: auto;
     padding: 0;
-    width: 1600px; } }
+    width: 1600px
+  }
+}
+
 body {
-  font-family: 'LatoWeb', sans-serif; }
+  font-family: 'LatoWeb', sans-serif;
+}
 
 a {
   color: #ffffff;
-  text-decoration: none; }
+  text-decoration: none;
+}
 
 button {
   font-family: 'LatoWebBold', sans-serif;
@@ -24,75 +32,97 @@ button {
   letter-spacing: 2px;
   border-radius: 3px;
   border: none;
-  cursor: pointer; }
-  button.btn-trydemo {
-    background-color: #f69679; }
-  button.bordered {
-    border: 3px solid #ffffff; }
-  button.short {
-    width: 180px; }
-  button.button-play {
+  cursor: pointer;
+
+  &.btn-trydemo {
+    background-color: #f69679;
+  }
+
+  &.bordered {
+    border: 3px solid #ffffff;
+  }
+
+  &.short {
+    width: 180px;
+  }
+
+  &.button-play {
     width: 99px;
     height: 99px;
     background: transparent;
     border-radius: 100%;
     border: 10px solid #ffffff;
-    position: relative; }
-  button.button-play::after {
+    position: relative;
+  }
+
+  &.button-play::after {
     border-top: 15px solid transparent;
     border-left: 19px solid #ffffff;
     border-bottom: 14px solid transparent;
     position: absolute;
     top: 25px;
     left: 34px;
-    content: ''; }
+    content: '';
+  }
+}
 
 nav ul {
-  list-style: none; }
+  list-style: none;
+}
 
 nav li + li {
-  margin-top: 20px; }
+  margin-top: 20px;
+}
 
 nav a {
-  font-weight: bold; }
+  font-weight: bold;
+}
 
 body > div {
   overflow: hidden;
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 /* typography */
 h1, h2, h3, h4 {
-  font-family: 'LatoWebLight', sans-serif; }
+  font-family: 'LatoWebLight', sans-serif;
+}
 
 h1 {
-  font-size: 60px; }
+  font-size: 60px;
+}
 
 h2 {
-  font-size: 55px; }
+  font-size: 55px;
+}
 
 h3 {
   font-size: 44px;
-  line-height: 47px; }
+  line-height: 47px;
+}
 
 h4 {
   font-size: 43px;
-  font-style: italic; }
+  font-style: italic;
+}
 
 h5 {
   font-family: 'LatoWebBlack', sans-serif;
-  text-transform: uppercase; }
+  text-transform: uppercase;
+}
 
 i {
-  font-style: italic; }
+  font-style: italic;
+}
 
 .content {
   margin-left: auto;
-  margin-right: auto; }
+  margin-right: auto;
+}
 
 .cf:after {
   content: '';
   display: block;
-  clear: both; }
-
-/*# sourceMappingURL=common.css.map */
+  clear: both;
+}

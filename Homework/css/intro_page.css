@@ -1,0 +1,38 @@
+.intro_page {
+  background: url("images/background.png") no-repeat 0 center;
+  background-size: cover;
+  color: #ffffff; }
+  .intro_page .introduction {
+    text-align: center;
+    margin-top: 96px;
+    margin-bottom: 64px; }
+    .intro_page .introduction h1 {
+      letter-spacing: -1px;
+      margin-bottom: 17px; }
+    .intro_page .introduction .introduction_slogan {
+      width: 700px;
+      margin: auto;
+      line-height: 30px;
+      font-size: 17px; }
+
+button.play {
+  margin: 70px 0;
+  width: 99px;
+  height: 99px;
+  background: transparent;
+  border-radius: 100%;
+  border: 10px solid #ffffff;
+  position: relative; }
+  button.play:after {
+    border-top: 15px solid transparent;
+    border-left: 19px solid #ffffff;
+    border-bottom: 14px solid transparent;
+    position: absolute;
+    top: 25px;
+    left: 34px;
+    content: ''; }
+button.getStarted {
+  background-color: #7accc8;
+  margin-top: 195px; }
+
+/*# sourceMappingURL=intro_page.css.map */
