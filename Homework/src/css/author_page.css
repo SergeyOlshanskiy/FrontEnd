@@ -26,13 +26,30 @@
     line-height: 53px;
     letter-spacing: -0.2px;
     word-spacing: -2.5px; }
-  .author_page .avatar {
-    height: 122px;
-    width: 122px;
-    background-color: dodgerblue;
-    border: 5px solid #fdfdfd;
-    border-radius: 50%;
-    margin-bottom: 25px; }
+  .author_page .slider_slide {
+    width: 1180px;
+    float: left; }
+  .author_page .slider_inner {
+    width: 300%; }
+  .author_page .slider_stack {
+    overflow: hidden; }
+  .author_page .slider_helper {
+    display: none; }
+  .author_page #slide_1:checked ~ .slider_stack .slider_inner {
+    margin-left: 0; }
+  .author_page #slide_2:checked ~ .slider_stack .slider_inner {
+    margin-left: -100%; }
+  .author_page #slide_3:checked ~ .slider_stack .slider_inner {
+    margin-left: -200%; }
+  .author_page #slide_1:checked ~ .slider_switches .slider_switch:nth-child(1),
+  .author_page #slide_2:checked ~ .slider_switches .slider_switch:nth-child(2),
+  .author_page #slide_3:checked ~ .slider_switches .slider_switch:nth-child(3) {
+    background-color: #fdfdfd; }
+  .author_page .slider_inner {
+    transition: all 800ms cubic-bezier(0.77, 0, 0.175, 1);
+    /* easeInOutQuart */
+    transition-timing-function: cubic-bezier(0.77, 0, 0.175, 1);
+    /* easeInOutQuart */ }
   .author_page .slider_switches {
     display: inline-block;
     margin-top: 56px; }
@@ -40,7 +57,7 @@
     content: '';
     display: block;
     clear: both; }
-  .author_page .switch {
+  .author_page .slider_switch {
     height: 8px;
     width: 8px;
     background-color: transparent;
@@ -49,7 +66,24 @@
     margin: 0 13px;
     float: left;
     cursor: pointer; }
-  .author_page .switch.active {
+  .author_page .slider_switch.active {
     background-color: #fdfdfd; }
+  .author_page .avatar {
+    height: 122px;
+    width: 122px;
+    background-color: dodgerblue;
+    border: 5px solid #fdfdfd;
+    border-radius: 50%;
+    margin-bottom: 25px; }
+    .author_page .avatar.author {
+      animation: roll 15s infinite; }
+
+@keyframes roll {
+  0% {
+    transform: rotate(0deg); }
+  5% {
+    transform: rotate(360deg); }
+  100% {
+    transform: rotate(360deg); } }
 
 /*# sourceMappingURL=author_page.css.map */
