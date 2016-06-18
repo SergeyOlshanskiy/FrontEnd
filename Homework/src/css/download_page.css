@@ -6,6 +6,9 @@
   padding-bottom: 181px;
   box-sizing: border-box;
   background: url("images/radial_circles.png") no-repeat calc(100% - 187px) calc(100% + 239px) #e8b968; }
+  @media screen and (min-width: 1600px) {
+    .download_page {
+      background-position: calc(100% - 346px) calc(100% + 239px); } }
   .download_page h2 {
     letter-spacing: .7px;
     word-spacing: -8px;

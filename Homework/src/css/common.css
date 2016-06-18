@@ -25,6 +25,8 @@ button {
   border-radius: 3px;
   border: none;
   cursor: pointer; }
+  button:focus {
+    outline: 0; }
   button.btn-trydemo {
     background-color: #f69679; }
   button.bordered {
@@ -38,7 +40,7 @@ button {
     border-radius: 100%;
     border: 10px solid #ffffff;
     position: relative; }
-  button.button-play::after {
+  button.button-play:after {
     border-top: 15px solid transparent;
     border-left: 19px solid #ffffff;
     border-bottom: 14px solid transparent;
