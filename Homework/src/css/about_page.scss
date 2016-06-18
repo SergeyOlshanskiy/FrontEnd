@@ -1,0 +1,30 @@
+.page-about {
+  background: url("images/blot.png") no-repeat center 48% #7accc8;
+  color: #ffffff;
+  padding-top: 74px;
+  padding-bottom: 236px;
+
+  nav {
+    float: right;
+    min-width: 108px;
+  }
+
+  .designBy {
+    text-align: center;
+    letter-spacing: 6px;
+    margin-top: 206px;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  .cols {
+    width: 55%;
+    line-height: 23px;
+    -moz-columns: 2 auto;
+    -webkit-columns: 2 auto;
+    columns: 2 auto;
+    -moz-column-gap: 45px;
+    -webkit-column-gap: 45px;
+    column-gap: 45px;
+  }
+}
