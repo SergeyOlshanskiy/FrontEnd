@@ -1,18 +1,18 @@
-.page-about {
+.about_page {
   background: url("images/blot.png") no-repeat center 48% #7accc8;
   color: #ffffff;
   padding-top: 74px;
   padding-bottom: 236px; }
-  .page-about nav {
+  .about_page nav {
     float: right;
     min-width: 108px; }
-  .page-about .designBy {
+  .about_page .designBy {
     text-align: center;
     letter-spacing: 6px;
     margin-top: 206px;
     font-size: 12px;
     text-transform: uppercase; }
-  .page-about .cols {
+  .about_page .cols {
     width: 55%;
     line-height: 23px;
     -moz-columns: 2 auto;

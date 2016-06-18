@@ -1,4 +1,4 @@
-.page_about_author {
+.author_page {
   overflow: visible;
   height: 464px;
   color: #f9f9f9;
@@ -6,7 +6,7 @@
   text-align: center;
   position: relative;
   background: url("images/branch.png") no-repeat 0 -45px #5b6869; }
-  .page_about_author:after {
+  .author_page:after {
     content: '';
     display: block;
     width: 0;
@@ -22,25 +22,25 @@
     bottom: -16px;
     left: 50%;
     margin-left: -18px; }
-  .page_about_author h4 {
+  .author_page h4 {
     line-height: 53px;
     letter-spacing: -0.2px;
     word-spacing: -2.5px; }
-  .page_about_author .avatar {
+  .author_page .avatar {
     height: 122px;
     width: 122px;
     background-color: dodgerblue;
     border: 5px solid #fdfdfd;
     border-radius: 50%;
     margin-bottom: 25px; }
-  .page_about_author .slider_switches {
+  .author_page .slider_switches {
     display: inline-block;
     margin-top: 56px; }
-  .page_about_author .slider_switches:after {
+  .author_page .slider_switches:after {
     content: '';
     display: block;
     clear: both; }
-  .page_about_author .switch {
+  .author_page .switch {
     height: 8px;
     width: 8px;
     background-color: transparent;
@@ -49,7 +49,7 @@
     margin: 0 13px;
     float: left;
     cursor: pointer; }
-  .page_about_author .switch.active {
+  .author_page .switch.active {
     background-color: #fdfdfd; }
 
 /*# sourceMappingURL=author_page.css.map */

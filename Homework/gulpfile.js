@@ -30,7 +30,10 @@ gulp.task('html:build', ['css:build'], function () {
         .pipe(gulp.dest('./public'));
 });
 
-gulp.task('files:copy', ['copy-fonts', 'copy-pictures']);
+gulp.task('files:copy', ['copy-fonts', 'copy-pictures'], function () {
+    return gulp.src('src/favicon.ico')
+        .pipe(gulp.dest('public'));
+});
 
 gulp.task('copy-index', function () {
     return gulp.src('src/index.html')

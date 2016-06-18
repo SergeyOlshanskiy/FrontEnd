@@ -1,99 +1,99 @@
-h3 {
+.work_page {
+  padding-top: 100px;
+  padding-bottom: 159px;
+  color: #abbcc3;
+  background-color: #f6f6f4;
+
+  h3 {
     margin-bottom: 25px;
-}
+  }
 
-.page-work {
-    padding-top: 100px;
-    padding-bottom: 159px;
-    color: #abbcc3;
-    background-color: #f6f6f4;
-}
-
-.page-work .content {
+  .content {
     position: relative;
-}
+  }
 
-.page-work article {
+  article {
     margin: 0 20px;
     line-height: 24px;
-}
+  }
 
-.page-work article.coolmessage {
+  article.coolmessage {
     width: 420px;
     float: left;
-}
+  }
 
-.page-work-ihavenoideawhatisit, .page-work-square {
+  .ihavenoideawhatisit, .page-work-square {
     width: 337px;
-}
+  }
 
-.page-work-ihavenoideawhatisit {
+  .ihavenoideawhatisit {
     height: 486px;
     float: left;
     margin-right: 20px;
     border-bottom: 3px solid #eaeaea;
     color: #7a8387;
     background-color: #ffffff;
-}
+  }
 
-.page-work-ihavenoideawhatisit:first-of-type {
+  .ihavenoideawhatisit:first-of-type {
     margin-left: 3px;
-}
+  }
 
-.page-work-ihavenoideawhatisit:last-of-type {
+  .ihavenoideawhatisit:last-of-type {
     margin-right: 23px;
-}
+  }
 
-.page-work-ihavenoideawhatisit-desc {
+  .ihavenoideawhatisit-desc {
     padding-top: 30px;
     padding-left: 40px;
-}
+  }
 
-.page-work-ihavenoideawhatisit-desc h5 {
+  .ihavenoideawhatisit-desc h5 {
     margin-bottom: 15px;
     color: #9197a8;
     letter-spacing: 2px;
-}
+  }
 
-.page-work-square {
+  .square {
     height: 346px;
-}
+  }
 
-.page-work-square.red {
+  .square.red {
     background-color: #f69679;
-}
+  }
 
-.page-work-square.orange {
+  .square.orange {
     background-color: #e8b968;
-}
+  }
 
-.page-work .slider_arrows {
+  .slider_arrows {
     position: absolute;
     bottom: -9px;
     right: -7px;
-}
+  }
 
-.slider_arrow_left,
-.slider_arrow_right {
+  .slider_arrow_left,
+  .slider_arrow_right {
     width: 24px;
     height: 24px;
     cursor: pointer;
-}
+  }
 
-.slider_arrow_left {
+  .slider_arrow_left {
     float: left;
     background: url("images/slider_left.png") no-repeat transparent;
-}
+  }
 
-.slider_arrow_right {
+  .slider_arrow_right {
     float: right;
     background: url("images/slider_right.png") no-repeat transparent;
-}
+  }
 
-.slider_arrow_left__disabled {
+  .slider_arrow_left__disabled {
     background: url("images/slider_left_disabled.png") no-repeat transparent;
-}
+  }
 
-.slider_arrow_right__disabled {
+  .slider_arrow_right__disabled {
     background: url("images/slider_right_disabled.png") no-repeat transparent;
+  }
 }
